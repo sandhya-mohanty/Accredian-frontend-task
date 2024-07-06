@@ -35,7 +35,7 @@ const ReferralModal = ({ onClose }) => {
     }
 
     try {
-      const response = await axios.post('https://accredian-backend-task-red.vercel.app//api/referrals', formData);
+      const response = await axios.post('https://accredian-backend-task-red.vercel.app/api/referrals', formData);
       setFormSuccess('Referral submitted successfully!');
       setFormData({
         referrerName: '',
